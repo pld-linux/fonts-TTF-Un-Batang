@@ -6,7 +6,8 @@ Release:	1
 # license info available in CVS
 License:	GPL v2
 Group:		Fonts
-Source0:	http://kldp.net/projects/unfonts/download/4706/UnBatang_%{version}.ttf
+#Source0Download:	http://kldp.net/projects/unfonts/download/4706?filename=UnBatang_%{version}.ttf
+Source0:	UnBatang_%{version}.ttf
 # Source0-md5:	0cb2b8a3cf6db627e52ded1b52906787
 Requires(post,postun):	fontpostinst
 BuildArch:	noarch
